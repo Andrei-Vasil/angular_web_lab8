@@ -1,0 +1,28 @@
+<a href="menu/"> Menu </a> 
+<br>
+<a href="crud/"> CRUD </a>
+
+<table>
+    <thead>
+        <th>
+            Author
+        </th>
+        <th>
+            Title
+        </th>
+        <th>
+            Genre
+        </th>
+        <th></th>
+    </thead>
+    <tbody id="tableContents">
+
+    </tbody>
+</table>
+
+<br><br>
+
+<div>
+    Filter by Genre: <input id="genre" (keyup)="fillTableContents(false, true)">
+</div>
+
